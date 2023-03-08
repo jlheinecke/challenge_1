@@ -76,6 +76,7 @@ p {
 }
 
 .benefits {
+    position: relative;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -189,6 +190,8 @@ p {
 }
 
 .footer {
+    position: absolute;
+    justify-content: center;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +199,7 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
+    
+    
+    bottom:0;font-size: 20px;
 }
